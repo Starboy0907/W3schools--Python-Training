@@ -1,3 +1,10 @@
+Deliverables: 1) There are 3 numeric types in python: int, float, complex
+              2) Int is unlimited positive or negative
+              3) Float is positive or negative with a decimals and can also be scientific e donoting a power of 10
+              4) Complex number are written with a j as the imaginary part
+              5) the random number module: import module; print(random.randrange(1-10))
+
+
 Python Numbers
 Python Numbers
 There are three numeric types in Python:
