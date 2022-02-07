@@ -1,6 +1,9 @@
-Deliverables: 1)
-              2)
-              3)
+Deliverables: 1) if statements return boolean
+              2) Most values evaluate to true
+              3) Empty set, none, 0, and function returning 0 or False all evaluate to False
+              4) You can create a function that returns a boolean answer
+              5) You can execute code based on the boolean answer of a function
+              6) You can use the isinstance() function to check for a datatype: isinstance(x, int)
 
 
 

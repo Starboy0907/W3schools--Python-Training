@@ -38,7 +38,33 @@ bool(())
 bool([])
 bool({})
 
-# An object made from a class
+# An object made from a class with a __len__ function that returns false or 0 will also evaluate to FALSE
+class myclass():
+    def __len__(self):
+        return 0
+
+myobj = myclass()
+print(bool(myobj))
+
+# You can return function that return a boolean value
+def myFunction():
+    return True
+print(myFunction())
+
+# You can execute code based on the boolean answer of a function:
+# Print yes if the boolean return True, otherwise print "No!"
+
+def myFunction():
+    return True
+if myFunction:
+    print("Yes")
+else:
+    print("No")
+
+# You can use the isinstance() function to determine if an object is of a certain data type
+x = 200
+print(isinstance(x,int))
+
 
 
 
